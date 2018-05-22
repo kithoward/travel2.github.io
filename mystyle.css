@@ -1,0 +1,38 @@
+body {
+      background-color:lightblue;
+      color: navy;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+p {
+
+   font-family: Courier New;
+   font-size: 20px;
+
+}

@@ -52,9 +52,18 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 1200px;
+  background-color: lightblue;
+}
+
+ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   width: 200px;
   background-color: lightblue;
 }
+
 
 li a {
   float: center;
@@ -80,9 +89,18 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 1200px;
     background-color: lightblue;
 
+}
+
+li a {
+    float: left;
+    display: block;
+    color: navy;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
 }
 
 /* Change the link color on hover */
@@ -94,7 +112,6 @@ li a:hover {
 </head>
 <body>
 
-<h2>Menu</h2>
 
 <ul>
   <li><a href=home.html>Home</a></li>
@@ -106,6 +123,8 @@ li a:hover {
 
 <body>
 
+<br>
+</br>
 
 <h1>Hello, Welcome to the Beach!</h1>
 
@@ -116,17 +135,17 @@ li a:hover {
 </img>
 <br>
 <p> Top Beach Destinations: </p>
-<ul class=“a”>
-  <li> <a href=https://uk.tourismthailand.org>Thailand</a>
-  <br> <img src=thailand.jpeg border=0 width=75%> </li>
+<ul id=“a”>
+  <li align=“center”><a href=https://uk.tourismthailand.org>Thailand</a>
+  <br> <img src=thailand.jpeg border=0 width=25%> </li>
   </br>
   <br></br>
   <li> <a href=https://www.caribbeantravel.com> Caribbean </a> 
-  <br> <img src=caribbean.jpeg border=0 width=75%> </li>
+  <br> <img src=caribbean.jpeg border=0 width=25%> </li>
   </br>
   <br></br> 
   <li> <a href=http://www.cubatravel.cu/en> Cuba </a>
-  <br> <img src=cuba.jpeg border=0 width=77%> </li>
+  <br> <img src=cuba.jpeg border=0 width=25%> </li>
 </ul>
 </center>
 

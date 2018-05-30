@@ -1,6 +1,7 @@
 <html>
 
 <head> 
+      <title> Beach </title>
 <style>
 
 body {
@@ -39,7 +40,13 @@ h2 {
   a:active {
   color: blue;
 }
-<— this is main text —>
+
+table.center  {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+<— main text —>
 
 p {
 
@@ -79,7 +86,7 @@ li a {
   background-color: turquoise;
   color: white;
 }
-<- this is menu ->
+<- menu ->
 
 </style>
 </head>
@@ -114,10 +121,11 @@ li a:hover {
 
 
 <ul>
-  <li><a href=home.html>Home</a></li>
-  <li><a href=beach.html>Beach</a></li>
-  <li><a href=jungle.html>Jungle</a></li>
-  <li><a href=city.html>City</a></li>
+    <li><a href=home.html>Home</a></li>
+    <li><a href=beach.html>Beach</a></li>
+    <li><a href=jungle.html>Jungle</a></li>
+    <li><a href=city.html>City</a></li>
+    <li><a href=about.html>About</a></li>
 </ul>
 </body>
 
@@ -126,31 +134,35 @@ li a:hover {
 <br>
 </br>
 
-<h1>Hello, Welcome to the Beach!</h1>
+<h1> Welcome to the Beach! </h1>
 
   <p align=center> Scroll down for links </p>
 
 
 <center><img src=beach2.jpeg border=0 width=70%>
 </img>
-<br>
+<br></br> <br></br>
 <p> Top Beach Destinations: </p>
-<ul id=“a”>
-  <li align=“center”><a href=https://uk.tourismthailand.org>Thailand</a>
-  <br> <img src=thailand.jpeg border=0 width=25%> </li>
-  </br>
-  <br></br>
-  <li> <a href=https://www.caribbeantravel.com> Caribbean </a> 
-  <br> <img src=caribbean.jpeg border=0 width=25%> </li>
-  </br>
-  <br></br> 
-  <li> <a href=http://www.cubatravel.cu/en> Cuba </a>
-  <br> <img src=cuba.jpeg border=0 width=25%> </li>
-</ul>
 </center>
 
-<br>
-</br>
+<br> </br>
+
+<table class=“center”>
+<tr>
+  <td align=center> <a href=https://uk.tourismthailand.org>Thailand</a> </td>
+  <td align=center> <img src=thailand.jpeg border=0 width=25%> </td>
+</tr>
+<tr> 
+  <td align=center> <a href=https://www.caribbeantravel.com> Caribbean </a> </td>
+  <td align=center> <img src=caribbean.jpeg border=0 width=25%> </td>
+</tr>
+<tr> 
+  <td align=center> <a href=http://www.cubatravel.cu/en> Cuba </a> </td>
+  <td align=center><img src=cuba.jpeg border=0 width=25%> </td>
+</tr>
+</table>
+
+
 
 <audio controls>
   <source src=beachsound.mp3 type=audio/mpeg>

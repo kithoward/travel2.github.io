@@ -5,15 +5,23 @@
 <style>
 
 body {
-      background-color:darkviolet;
-      color: deeppink;
+      background-color: mediumpurple;
+      color: hotpink;
       font-family: Courier New;
 }
 
 h1 {
-    color: deeppink;
+    color: hotpink;
     text-align: center;
+}
 
+
+p.solid {
+  border-style: solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 150px;
 }
 
 /* unvisited link */
@@ -23,7 +31,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: deeppink;
+    color: hotpink;
 }
 
 /* mouse over link */
@@ -37,10 +45,8 @@ a:active {
 }
 
 p {
-
    font-family: Courier New;
    font-size: 20px;
-
 }
 
 ul {
@@ -49,7 +55,6 @@ ul {
     padding: 0;
     width: 1200px;
     background-color: darkviolet;
-
 }
 
 li a {
@@ -66,11 +71,6 @@ li a:hover {
     background-color: darkturquoise;
     color: deeppink;
 }
-</style>
-</head>
-<head>
-<style>
-
 
 li a {
     display: block;
@@ -84,6 +84,7 @@ li a:hover {
     background-color: darkturquoise;
     color: white;
 }
+
 </style>
 </head>
 <body>
@@ -96,18 +97,36 @@ li a:hover {
     <li><a href=city.html>City</a></li>
     <li><a href=about.html>About</a></li>
 </ul>
-<body>
 
-<br>
-</br>
 
-<h1> Hello, Welcome to the City! </h1>
-<center><img src=city.jpeg border=0 width=95%>
+<br></br>
+
+<header>
+<h1> Welcome to the City! </h1>
+</header>
+
+<center><img src=city.jpeg border=0 width=50%></center>
 </img>
 
+<article>
+<h4><center><p class=solid> There is such a huge range of cities around the word to choose from - Whether you fancy a relaxed city break in Europe, or the hustle and bustle of a city like New York!</p></center></h4>  
+
+<p><center><pre> 
+Tokyo <img src=tokyo.jpeg border=0 width=20%></img>
+Dubai <img src=dubai.jpeg border=0 width=20%></img>
+Paris <img src=paris.jpeg border=0 width=20%></img>
+Miami <img src=miami.jpeg border=0 width=20%></img>
+</pre></center></p>
+
+</article>
+
 <footer>
-  <p> <a href=city.html>Back to the top</a></p>
+<p><center><a href=city.html>Back to the top</a></center></p>
 </footer>
+
+<center>
+&copy; Kit Howard
+</center>
 
 </body>
 </html>

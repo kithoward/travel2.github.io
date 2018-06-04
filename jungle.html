@@ -5,25 +5,48 @@
 <style>
 
 body {
-      background-color:darkgreen;
-      color: brown;
-      font-family: Courier New;
+  background-color:olive;
+  color: brown;
+  font-family: Courier New;
 }
 
 h1 {
-    color: brown;
-    text-align: center;
-
+  color: brown;
+  text-align: center;
 }
+
+h2 {
+  color: brown;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  color: orange;
+}
+
+pre {
+  font-family: Courier New;
+  font-size: 20px;
+}
+
+p.solid {
+  border-style: solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
 
 /* unvisited link */
 a:link {
-    color: navy;
+  color: navy;
 }
 
 /* visited link */
 a:visited {
-    color: white;
+  color: white;
 }
 
 /* mouse over link */
@@ -37,42 +60,23 @@ a:active {
 }
 
 p {
-
    font-family: Courier New;
    font-size: 20px;
-
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 1200px;
-    background-color: lightblue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+}
 
+ol {
+  color: orange;
 }
 
 li a {
     float: left;
-    display: block;
-    color: navy;
-    padding: 8px 16px;
-    text-decoration: none;
-    text-align: center;
-}
-
-/* Change the link color on hover */
-li a:hover {
-    background-color: turquoise;
-    color: white;
-}
-</style>
-</head>
-<head>
-<style>
-
-
-li a {
     display: block;
     color: brown;
     padding: 8px 16px;
@@ -84,8 +88,10 @@ li a:hover {
     background-color: brown;
     color: white;
 }
+
 </style>
 </head>
+
 <body>
 
 
@@ -96,15 +102,55 @@ li a:hover {
     <li><a href=city.html>City</a></li>
     <li><a href=about.html>About</a></li>
 </ul>
-<body>
 
-<br>
-</br>
 
-<h1> Hello, Welcome to the Jungle! </h1>
+<br></br>
 
-<center><img src=jungle.jpeg border=0 width=70%>
-</img>
+<header>
+<h1> Welcome to the Jungle! </h1>
+</header>
+
+<center><img src=jungle.jpeg border=0 width=50%>
+</img></center>
+
+<article>
+
+<h2> There are many amazing jungles around the world… Take a look for yourself! </h2>
+
+<p><center><pre>Luscious green rainforests, incredible wildlife…
+
+What jungle destination would you like to visit?</pre></center></p>
+
+<h4><center><p class=solid>From the rainforests of the Amazon to the magical jungles of Borneo, there is a jungle destination for everyone!Take a look for some inspiration:</p></center></h4>
+
+<p> Most popular jungle destinations: </p>
+
+<ol>
+  <li>Borneo</li>
+  <li>Amazon</li>
+  <li>Sri Lanka</li>
+</ol>  
+
+<p><pre>However, these are just some ideas. There are many more destinations around the world 
+to see nature and wildlife in their natural jungle and rainforest environments. 
+For example:</pre></p>
+<h3> Madagascar </h3>
+<p> Sadly, Madagascar has been victim to much deforestation, however it is still a fantastic place to see beautiful rainforests. It is also home to the largest living lemurs left in the wild! </p>
+<h3> Rwanda </h3>
+<p> Rwanda is the place to see some of the last remaining mountain gorillas in a natural rainforest environment. </p>
+<h3> India </h3>
+<p> Home to the Roayl Bengal tiger, the jungles of India offer a once in a lifetime experience to witness these beutiful creatures. </p>
+
+</article>
+
+<footer>
+<p><center><a href=jungle.html>Back to the top</a></center></p>
+</footer>
+
+<center>
+&copy; Kit Howard
+</center>
+
 </body>
 </html>
 

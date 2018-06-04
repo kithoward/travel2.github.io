@@ -5,19 +5,19 @@
 <style>
 
 body {
-      background-color:lightblue;
-      color: white;
+      background-color:lightskyblue;
+      color: seagreen;
       font-family: Courier New;
 }
 
 h1 {
-    color: white;
+    color: orange;
     text-align: center;
 
 }
 
-h2 {
-    color: deepskyblue;
+h4 {
+    color: orange;
 
 }
 
@@ -33,7 +33,7 @@ h2 {
 
   /* mouse over link */
   a:hover {
-  color: gold;
+  color: orange;
 }
 
   /* selected link */
@@ -41,12 +41,33 @@ h2 {
   color: blue;
 }
 
-table.center  {
-  margin-left:auto;
-  margin-right:auto;
+p.solid {
+         border-style: solid;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         margin-right: 150px;
+         margin-left: 150px;
 }
 
-<— main text —>
+table {
+       margin-top: 1px;  
+       margin-bottom: 10px;
+       margin-left:200px;
+       margin-right:200px;
+       border-collapse: collapse;
+       color: ivory;
+}
+
+table, td, th {
+    border: 3px solid orange;
+}
+
+#table1 {
+  border-collapse: separate;
+  border-color: gold;
+}
+
+<!— main text —>
 
 p {
 
@@ -112,7 +133,7 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: gold;
+    background-color: orange;
     color: white;
 }
 </style>
@@ -134,33 +155,49 @@ li a:hover {
 <br>
 </br>
 
+<header>
 <h1> Welcome to the Beach! </h1>
+</header>
 
-  <p align=center> Scroll down for links </p>
+<center>
+<img src=beach2.jpeg border=0 width=50%>
+</center></img>
 
+<br></br>
 
-<center><img src=beach2.jpeg border=0 width=70%>
-</img>
+<article>
+<h4><center><p class=solid> This page has a selection of the top beach destinations from around the world! Take a look at the table below to inspire your next trip to an amazing beach location. Click on the pictures to take you to the tourism website for each destination!</p></center></h4>
+
 <br></br> <br></br>
-<p> Top Beach Destinations: </p>
-</center>
 
-<br> </br>
-
-<table class=“center”>
+<table id=table1>
 <tr>
-  <td align=center> <a href=https://uk.tourismthailand.org>Thailand</a> </td>
-  <td align=center> <img src=thailand.jpeg border=0 width=25%> </td>
+  <th>Destination</th>
+  <th>Top Beaches</th>
+  <th>Click on the picture!</th>
+  <th rowspan=5> Take your pick!</th>
+</tr>
+<tr>
+  <td align=center> Thailand </td>
+  <td align=center> Koh Samui, Phuket, Krabi </td>
+  <td align=center> <a href=https://uk.tourismthailand.org> <img src=thailand.jpeg alt=“Go to Thailand” border=0 width=45%></a> </td>
 </tr>
 <tr> 
-  <td align=center> <a href=https://www.caribbeantravel.com> Caribbean </a> </td>
-  <td align=center> <img src=caribbean.jpeg border=0 width=25%> </td>
+  <td align=center> Caribbean </td>
+  <td align=center> Bahamas, Cuba, Aruba </td>
+  <td align=center> <a href=https://www.caribbeantravel.com> <img src=caribbean.jpeg alt=“Go to Caribbean” border=0 width=45%></a> </td>
 </tr>
 <tr> 
-  <td align=center> <a href=http://www.cubatravel.cu/en> Cuba </a> </td>
-  <td align=center><img src=cuba.jpeg border=0 width=25%> </td>
+  <td align=center> New Zealand </td>
+  <td align=center> Awaroa, Moeraki, Oriental Bay  </td>
+  <td align=center> <a href=https://www.newzealand.com/uk/visitor-information-centre/?cid=p:sem:UK:FY18:Pure:Google:UK_G_S_E_Tourism_New_Zealand:txt:&kwid=new_zealand_tourism&gclid=CjwKCAjwur7YBRA_EiwASXqIHGBBkoTFE6lrpxWbCZrbuP47KcKDTVLSxYItLleQB8DqJMSUvQ1zJhoCaIwQAvD_BwE&gclsrc=aw.ds> <img src=newzealand.jpeg alt=“Go to NZ” border=0 width=45%></a> </td>
+</tr>
+<tr>
+  <td align=center colspan=4><b>Where will you go?</b></td>
 </tr>
 </table>
+
+</article>
 
 
 
@@ -168,6 +205,13 @@ li a:hover {
   <source src=beachsound.mp3 type=audio/mpeg>
 </audio> 
 
+<footer>
+<p><center><a href=beach.html>Back to the top</a></center></p>
+</footer>
+
+<center>
+&copy; Kit Howard
+</center>
 
 </body>
 </html>
